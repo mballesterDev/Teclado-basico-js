@@ -1,0 +1,89 @@
+
+
+
+body{
+    box-sizing: border-box;
+    background-color: cornflowerblue;
+    color: white;
+    
+}
+.pantalla {
+    
+    margin: 50px auto;
+    width: 900px;
+    height: 100px;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    text-align: justify;
+    padding: 10px;
+    border: solid 1px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+  }
+
+/*atributo display: block; se utiliza para cambiar el comportamiento predeterminado de un elemento <input> que es de tipo inline.
+Por defecto, los elementos <input> se muestran como elementos inline y no ocupan todo el ancho disponible. Al establecer display: block;, el input se comporta 
+como un bloque y ocupa todo el ancho disponible en su contenedor. (antes habia aqui un input pero ahra un div, pero dejo igualmente la anotacion)*/
+.teclado{
+    width: 900px;
+    height: 400px;
+    margin: 70px auto;
+}
+
+.btn{
+    width: 50px;
+    height: 85px;
+    background-color: white;
+    font-size: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    
+}
+.btn:hover,
+#mayus:hover{
+    background-color: lightblue;
+    
+}
+
+.f1,
+.f2,
+.f3,
+.f4,
+.barra
+{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 8px;
+    justify-content: center;
+}
+
+.f1{
+    margin-right: 56px;
+}
+.f2{
+    margin-left: 60px;
+}
+.btn-barra{
+    width: 500px;
+    height: 54px;
+}
+
+
+.convertirMayus{
+    text-transform: uppercase;
+}
+
+.mayus{
+    width: 108px;
+    background-color: white;
+    font-size: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.fondo{
+    background-color: lightblue;
+}
+
+.mayusAct{
+    text-transform: uppercase;
+}
